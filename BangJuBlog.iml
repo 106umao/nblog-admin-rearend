@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Springmvc Config" removed="false">
+          <dependency>web dispatcherServlet servlet context</dependency>
+          <file>file://$MODULE_DIR$/src/main/resources/springmvc-config.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>
