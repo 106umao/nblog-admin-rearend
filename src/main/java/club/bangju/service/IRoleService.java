@@ -1,6 +1,7 @@
 package club.bangju.service;
 
 import club.bangju.pojo.DO.RoleDO;
+import club.bangju.pojo.DTO.ResponseDTO;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
@@ -15,4 +16,11 @@ import java.util.List;
  */
 public interface IRoleService extends IService<RoleDO> {
 
+    ResponseDTO updateRole(RoleDO roleDO);
+
+    ResponseDTO deleteRole(RoleDO roleDO);
+
+    ResponseDTO addRole(RoleDO roleDO);
+
+    ResponseDTO listRole();
 }

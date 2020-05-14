@@ -16,4 +16,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 public interface IUserService extends IService<UserDO> , UserDetailsService {
 
     ResponseDTO getUserByUsername(String username);
+
+    ResponseDTO listUser();
+
+    ResponseDTO updateUser(Integer id, Integer delete );
 }

@@ -1,7 +1,6 @@
 <!DOCTYPE web-app PUBLIC
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
 <web-app>
   <filter>
     <filter-name>CharacterEncodingFilter</filter-name>
@@ -15,12 +14,11 @@
       <param-value>true</param-value>
     </init-param>
   </filter>
-  
-
   <filter-mapping>
     <filter-name>CharacterEncodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+
   <filter>
     <filter-name>springSecurityFilterChain</filter-name>
     <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
@@ -29,4 +27,5 @@
     <filter-name>springSecurityFilterChain</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+
 </web-app>

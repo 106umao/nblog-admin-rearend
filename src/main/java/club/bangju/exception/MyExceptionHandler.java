@@ -19,6 +19,9 @@ public class MyExceptionHandler {
 
     public Object allExceptionHandler(Exception e) {
         logger.error("异常处理:",e.getMessage());
-        return ResponseDTO.failed();
+        e.printStackTrace();
+        ResponseDTO<Object> failed = ResponseDTO.failed();
+        failed.setCode(500);
+        return failed;
     }
 }

@@ -11,8 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import java.util.HashMap;
 import java.util.List;
 
 
@@ -35,6 +35,18 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserDO> implements 
         UserDO user = userMapper.findUserByEmailHasRoles(username);
         logger.debug("查询出的用户"+user);
         return user;
+    }
+
+    @Override
+    @Transactional
+    public ResponseDTO updateUser(Integer id, Integer delete) {
+        int i = userMapper.updateStatusById(id,delete);
+        return i != 0 ? ResponseDTO.ok() : ResponseDTO.failed();
+    }
+
+    @Override
+    public ResponseDTO listUser() {
+        return  ResponseDTO.ok(userMapper.listUser());
     }
 
     @Override

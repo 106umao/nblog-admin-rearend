@@ -39,6 +39,7 @@
 
 
 
+
     <!-- 数据库依赖 -->
     <!-- MySQL 驱动 -->
     <dependency>
@@ -124,7 +125,12 @@
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
       <version>2.10.1</version>
+    </dependency>
 
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>2.10.1</version>
     </dependency>
 
     <!--jwt所需jar包-->

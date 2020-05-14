@@ -15,6 +15,6 @@ import java.util.List;
  * @since 2020-05-09
  */
 public interface RoleMapper extends BaseMapper<RoleDO> {
-    @Select("SELECT id,name,desc from role where id = #{id}")
-    List<RoleDO> findById(Integer Id);
+    @Select("SELECT role.id,name,`desc` from role inner join user_role on role.id = user_role.role_id where user_role.user_id = #{userId}")
+    List<RoleDO> listRoleByUserId(Integer userId);
 }
