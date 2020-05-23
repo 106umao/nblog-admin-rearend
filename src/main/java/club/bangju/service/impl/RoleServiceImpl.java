@@ -31,14 +31,17 @@ public class RoleServiceImpl extends ServiceImpl<RoleMapper, RoleDO> implements 
 
     @Override
     public ResponseDTO updateRole(RoleDO roleDO) {
-        int i = roleMapper.updateById(roleDO);
-        return i == 0 ? ResponseDTO.failed() : ResponseDTO.ok();
+        return roleMapper.disableRole(roleDO) == 0
+                ? ResponseDTO.failed()
+                : ResponseDTO.ok();
     }
 
     @Override
     public ResponseDTO deleteRole(RoleDO roleDO) {
-        int i = roleMapper.deleteById(roleDO);
-        return i == 0 ? ResponseDTO.failed() : ResponseDTO.ok();
+        return roleMapper.disableRole(roleDO) == 0
+                ? ResponseDTO.failed()
+                : ResponseDTO.ok();
+
     }
 
     @Override

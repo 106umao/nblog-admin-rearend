@@ -33,21 +33,24 @@ public class RoleController {
     }
 
     @Secured({ROLE_SUPER_ADMIN, ROLE_SYSTEM_ADMIN, ROLE_COMMENT_ADMIN})
-    @PutMapping("/role")
-    public ResponseDTO addRole(@RequestBody RoleDO roleDO) {
-        return roleService.addRole(roleDO);
-    }
-
-    @Secured({ROLE_SUPER_ADMIN, ROLE_SYSTEM_ADMIN, ROLE_COMMENT_ADMIN})
-    @DeleteMapping("/role")
-    public ResponseDTO deleteRole(@RequestBody RoleDO roleDO) {
-        return roleService.deleteRole(roleDO);
-    }
-
-    @Secured({ROLE_SUPER_ADMIN, ROLE_SYSTEM_ADMIN, ROLE_COMMENT_ADMIN})
     @PostMapping("/role")
     public ResponseDTO updateRole(@RequestBody RoleDO roleDO) {
         return roleService.updateRole(roleDO);
     }
+
+
+//    @Secured({ROLE_SUPER_ADMIN, ROLE_SYSTEM_ADMIN, ROLE_COMMENT_ADMIN})
+//    @DeleteMapping("/role")
+//    public ResponseDTO deleteRole(@RequestBody RoleDO roleDO) {
+//        return roleService.deleteRole(roleDO);
+//    }
+
+// Role不可修改
+//    @Secured({ROLE_SUPER_ADMIN, ROLE_SYSTEM_ADMIN, ROLE_COMMENT_ADMIN})
+//    @PutMapping("/role")
+//    public ResponseDTO addRole(@RequestBody RoleDO roleDO) {
+//        return roleService.addRole(roleDO);
+//    }
+
 }
 

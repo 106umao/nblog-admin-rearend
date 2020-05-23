@@ -16,8 +16,7 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 
 /**
- * @author dax
- * @since 2019/11/6 22:11
+ * @author OrangeCat
  */
 public class SimpleAuthenticationEntryPoint implements AuthenticationEntryPoint {
     Logger logger = LoggerFactory.getLogger(SimpleAuthenticationEntryPoint.class);

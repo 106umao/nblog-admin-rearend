@@ -16,8 +16,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * @author dax
- * @since 2019/11/6 22:19
+ * @author OrangeCat
  */
 public class SimpleAccessDeniedHandler implements AccessDeniedHandler {
     Logger logger = LoggerFactory.getLogger(SimpleAccessDeniedHandler.class);

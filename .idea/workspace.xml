@@ -7,155 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaf0211-74fa-4ade-ae26-b2016824afe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/bangju/util/Roles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dee5ecde-1d4c-4698-aa7a-58a656106727.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dee5ecde-1d4c-4698-aa7a-58a656106727.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/ArticleTagController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/ArticlesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/ReplyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/controller/ReplyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/TagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/controller/TagController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/controller/UserRoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/dao/ArticleTagMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/dao/ArticlesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/dao/CategoryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/dao/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/dao/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/dao/UserRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/exception/MyExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/exception/MyExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/ArticleDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/ArticleDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/ArticleTagDO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/ArticlesDO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/CategoryDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/CategoryDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/CommentDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/CommentDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/ReplyDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/ReplyDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/exception/SimpleAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/exception/SimpleAccessDeniedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/exception/SimpleAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/exception/SimpleAuthenticationEntryPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/RoleDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/RoleDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/TagDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/TagDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/UserRoleDO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/IArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/IArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/IArticleTagService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/IArticlesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/ICategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/ICommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/ICommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/IReplyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/IReplyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/IRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/ITagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/ITagService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/IUserRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/ArticleTagServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/ArticlesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/ReplyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/ReplyServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/TagServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/UserRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/bangju/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/ArticleTagController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/ArticlesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/ReplyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/ReplyController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/TagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/TagController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/controller/UserRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/dao/ArticleTagMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/dao/ArticlesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/dao/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/dao/CategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/dao/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/dao/RoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/dao/UserRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/exception/MyExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/exception/MyExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/ArticleDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/ArticleDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/ArticleTagDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/ArticlesDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/CategoryDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/CategoryDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/CommentDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/CommentDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/ReplyDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/ReplyDO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/exception/SimpleAccessDeniedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/exception/SimpleAccessDeniedHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/exception/SimpleAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/exception/SimpleAuthenticationEntryPoint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/RoleDO$RoleDOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/RoleDO$RoleDOBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/RoleDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/RoleDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/TagDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/TagDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/UserDO$UserDOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/UserDO$UserDOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/UserDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/UserDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/pojo/DO/UserRoleDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IArticleTagService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IArticlesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/ICategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/ICategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/ICommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/ICommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IReplyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IReplyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/ITagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/ITagService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IUserRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/IUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/ArticleTagServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/ArticlesServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/CommentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/ReplyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/ReplyServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/TagServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/classes/club/bangju/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.admin-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/ArticleTagController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/ArticlesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/ReplyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/controller/ReplyController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/TagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/controller/TagController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/controller/UserRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/dao/ArticleTagMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/dao/ArticlesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/dao/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/dao/CategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/dao/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/dao/RoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/dao/UserRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/exception/MyExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/exception/MyExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/ArticleDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/ArticleDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/ArticleTagDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/ArticlesDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/CategoryDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/CategoryDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/CommentDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/CommentDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/ReplyDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/ReplyDO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/exception/SimpleAccessDeniedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/exception/SimpleAccessDeniedHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/exception/SimpleAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/exception/SimpleAuthenticationEntryPoint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/RoleDO$RoleDOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/RoleDO$RoleDOBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/RoleDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/RoleDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/TagDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/TagDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/UserDO$UserDOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/UserDO$UserDOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/UserDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/UserDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/pojo/DO/UserRoleDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/IArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/IArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/IArticleTagService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/IArticlesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/ICategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/ICategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/ICommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/ICommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/IReplyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/IReplyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/IRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/IRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/ITagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/ITagService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/IUserRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/IUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/ArticleTagServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/ArticlesServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/CommentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/ReplyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/ReplyServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/TagServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/bangju/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,8 +75,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Aspect" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -262,6 +131,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="club.bangju.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\orangecat\IdeaProjects\BangJuBlog\src\main\java\club\bangju" />
       <recent name="C:\Users\orangecat\IdeaProjects\BangJuBlog\src\main\java\club\bangju\pojo\DTO" />
@@ -271,18 +143,16 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.31">
-    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeGenerator" />
+    <configuration name="Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Copy" />
       <module name="BangJuBlog" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CopyFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CopyFileDemo" />
       <module name="BangJuBlog" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoggerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -392,8 +262,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodeGenerator" />
-      <item itemvalue="JUnit.LoggerTest" />
+      <item itemvalue="Application.Copy" />
+      <item itemvalue="Application.CopyFileDemo" />
       <item itemvalue="JUnit.RsaGenerateKeyTest.generate" />
       <item itemvalue="JUnit.RsaGenerateKeyTest.getPublicKey" />
       <item itemvalue="JUnit.RsaGenerateKeyTest.getPrivateKey" />
@@ -401,11 +271,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyFileDemo" />
+        <item itemvalue="Application.Copy" />
         <item itemvalue="JUnit.RsaGenerateKeyTest.getPublicKey" />
         <item itemvalue="JUnit.RsaGenerateKeyTest.getPrivateKey" />
         <item itemvalue="JUnit.RsaGenerateKeyTest.generate" />
-        <item itemvalue="JUnit.LoggerTest" />
-        <item itemvalue="Application.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +293,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -432,7 +302,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:blog@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@8a8326a" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@10727ed" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -461,7 +331,10 @@
       <workItem from="1589349542565" duration="7801000" />
       <workItem from="1589425894904" duration="23915000" />
       <workItem from="1589460687230" duration="1285000" />
-      <workItem from="1589462000344" duration="6055000" />
+      <workItem from="1589462000344" duration="6149000" />
+      <workItem from="1589795872570" duration="2646000" />
+      <workItem from="1589939396308" duration="1282000" />
+      <workItem from="1590249616586" duration="8114000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目，完成基于security的RBAC权限控制，整合jwt作为分布式认证解决方案，添加了getUserInfo接口">
       <created>1589429139977</created>
@@ -470,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589429139977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成用户，文章，分类管理，完成权限控制，sso单点登录，">
+      <created>1589481468173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589481468173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +371,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目，完成基于security的RBAC权限控制，整合jwt作为分布式认证解决方案，添加了getUserInfo接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目，完成基于security的RBAC权限控制，整合jwt作为分布式认证解决方案，添加了getUserInfo接口" />
+    <MESSAGE value="完成用户，文章，分类管理，完成权限控制，sso单点登录，" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成用户，文章，分类管理，完成权限控制，sso单点登录，" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="39" key="#Project_Structure" timestamp="1589023670561">
@@ -522,78 +403,98 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="368" y="289" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1280.760@0.0.1280.760" timestamp="1589024646726" />
-    <state x="170" y="0" key="CommitChangelistDialog2" timestamp="1589429138217">
+    <state x="356" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590249636639">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="170" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1589429138217" />
+    <state x="356" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.760@0.0.1280.760" timestamp="1590249636639" />
+    <state x="170" y="0" key="CommitChangelistDialog2" timestamp="1590260448040">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="170" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1590260448040" />
     <state x="464" y="277" width="374" height="205" key="Github.CreateGistDialog" timestamp="1589464854822">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="464" y="277" width="374" height="205" key="Github.CreateGistDialog/0.0.1280.760@0.0.1280.760" timestamp="1589464854822" />
-    <state width="1081" height="562" key="GridCell.Tab.0.bottom" timestamp="1589481400739">
+    <state width="1081" height="290" key="GridCell.Tab.0.bottom" timestamp="1590259230731">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589481400739" />
-    <state width="1081" height="562" key="GridCell.Tab.0.center" timestamp="1589481400738">
+    <state width="1081" height="290" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1590259230731" />
+    <state width="1081" height="290" key="GridCell.Tab.0.center" timestamp="1590259230731">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589481400738" />
-    <state width="1081" height="562" key="GridCell.Tab.0.left" timestamp="1589481400738">
+    <state width="1081" height="290" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1590259230731" />
+    <state width="1081" height="290" key="GridCell.Tab.0.left" timestamp="1590259230730">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589481400738" />
-    <state width="1081" height="562" key="GridCell.Tab.0.right" timestamp="1589481400738">
+    <state width="1081" height="290" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1590259230730" />
+    <state width="1081" height="290" key="GridCell.Tab.0.right" timestamp="1590259230731">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589481400738" />
-    <state width="1081" height="562" key="GridCell.Tab.1.bottom" timestamp="1589481400739">
+    <state width="1081" height="290" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1590259230731" />
+    <state width="1081" height="290" key="GridCell.Tab.1.bottom" timestamp="1590259230631">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589481400739" />
-    <state width="1081" height="562" key="GridCell.Tab.1.center" timestamp="1589481400739">
+    <state width="1081" height="290" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1590259230631" />
+    <state width="1081" height="290" key="GridCell.Tab.1.center" timestamp="1590259230631">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1589481400739" />
-    <state width="1081" height="562" key="GridCell.Tab.1.left" timestamp="1589481400739">
+    <state width="1081" height="290" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1590259230631" />
+    <state width="1081" height="290" key="GridCell.Tab.1.left" timestamp="1590259230631">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1589481400739" />
-    <state width="1081" height="562" key="GridCell.Tab.1.right" timestamp="1589481400739">
+    <state width="1081" height="290" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1590259230631" />
+    <state width="1081" height="290" key="GridCell.Tab.1.right" timestamp="1590259230631">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589481400739" />
-    <state width="1081" height="562" key="GridCell.Tab.2.bottom" timestamp="1589481400739">
+    <state width="1081" height="290" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1590259230631" />
+    <state width="1081" height="290" key="GridCell.Tab.2.bottom" timestamp="1590259230632">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589481400739" />
-    <state width="1081" height="562" key="GridCell.Tab.2.center" timestamp="1589481400739">
+    <state width="1081" height="290" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1590259230632" />
+    <state width="1081" height="290" key="GridCell.Tab.2.center" timestamp="1590259230631">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1589481400739" />
-    <state width="1081" height="562" key="GridCell.Tab.2.left" timestamp="1589481400739">
+    <state width="1081" height="290" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1590259230631" />
+    <state width="1081" height="290" key="GridCell.Tab.2.left" timestamp="1590259230631">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1589481400739" />
-    <state width="1081" height="562" key="GridCell.Tab.2.right" timestamp="1589481400739">
+    <state width="1081" height="290" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1590259230631" />
+    <state width="1081" height="290" key="GridCell.Tab.2.right" timestamp="1590259230631">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="562" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1589481400739" />
-    <state width="1081" height="603" key="GridCell.Tab.3.bottom" timestamp="1589106501949">
+    <state width="1081" height="290" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1590259230631" />
+    <state width="1081" height="317" key="GridCell.Tab.3.bottom" timestamp="1589798522279">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="603" key="GridCell.Tab.3.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589106501949" />
-    <state width="1081" height="603" key="GridCell.Tab.3.center" timestamp="1589106501949">
+    <state width="1081" height="317" key="GridCell.Tab.3.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589798522279" />
+    <state width="1081" height="317" key="GridCell.Tab.3.center" timestamp="1589798522279">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="603" key="GridCell.Tab.3.center/0.0.1280.760@0.0.1280.760" timestamp="1589106501949" />
-    <state width="1081" height="603" key="GridCell.Tab.3.left" timestamp="1589106501948">
+    <state width="1081" height="317" key="GridCell.Tab.3.center/0.0.1280.760@0.0.1280.760" timestamp="1589798522279" />
+    <state width="1081" height="317" key="GridCell.Tab.3.left" timestamp="1589798522279">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="603" key="GridCell.Tab.3.left/0.0.1280.760@0.0.1280.760" timestamp="1589106501948" />
-    <state width="1081" height="603" key="GridCell.Tab.3.right" timestamp="1589106501949">
+    <state width="1081" height="317" key="GridCell.Tab.3.left/0.0.1280.760@0.0.1280.760" timestamp="1589798522279" />
+    <state width="1081" height="317" key="GridCell.Tab.3.right" timestamp="1589798522279">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1081" height="603" key="GridCell.Tab.3.right/0.0.1280.760@0.0.1280.760" timestamp="1589106501949" />
+    <state width="1081" height="317" key="GridCell.Tab.3.right/0.0.1280.760@0.0.1280.760" timestamp="1589798522279" />
+    <state width="1081" height="249" key="GridCell.Tab.4.bottom" timestamp="1589796207850">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1081" height="249" key="GridCell.Tab.4.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589796207850" />
+    <state width="1081" height="249" key="GridCell.Tab.4.center" timestamp="1589796207850">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1081" height="249" key="GridCell.Tab.4.center/0.0.1280.760@0.0.1280.760" timestamp="1589796207850" />
+    <state width="1081" height="249" key="GridCell.Tab.4.left" timestamp="1589796207849">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1081" height="249" key="GridCell.Tab.4.left/0.0.1280.760@0.0.1280.760" timestamp="1589796207849" />
+    <state width="1081" height="249" key="GridCell.Tab.4.right" timestamp="1589796207850">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1081" height="249" key="GridCell.Tab.4.right/0.0.1280.760@0.0.1280.760" timestamp="1589796207850" />
     <state x="-5" y="54" width="1283" height="706" key="SettingsEditor" timestamp="1589461886288">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -606,10 +507,10 @@
     </state>
     <state width="992" height="756" key="SwitcherDM.inPresentationMode/0.0.1280.760@0.0.1280.760" timestamp="1589278000540" />
     <state width="498" height="446" key="SwitcherDM/0.0.1280.760@0.0.1280.760" timestamp="1589277877997" />
-    <state x="324" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1589462010662">
+    <state x="324" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1589939446795">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="324" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1589462010662" />
+    <state x="324" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1589939446795" />
     <state x="223" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589445308783">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -622,10 +523,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="383" y="8" key="refactoring.ChangeSignatureDialog/0.0.1280.760@0.0.1280.760" timestamp="1589455470212" />
-    <state x="301" y="174" key="run.anything.popup" timestamp="1589350439954">
+    <state x="302" y="175" key="run.anything.popup" timestamp="1589940372859">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="301" y="174" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1589350439954" />
+    <state x="302" y="175" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1589940372859" />
     <state x="316" y="95" width="672" height="678" key="search.everywhere.popup" timestamp="1589465751227">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -657,13 +558,26 @@
           <line>47</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/club/bangju/pojo/DO/UserDO.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/club/bangju/config/ServletConfig.java</url>
-          <line>24</line>
-          <properties class="club.bangju.config.ServletConfig" method="mvcHandlerMappingIntrospector">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.0/mybatis-plus-extension-3.3.0.jar!/com/baomidou/mybatisplus/extension/spring/MybatisSqlSessionFactoryBean.class</url>
+          <line>92</line>
+          <properties class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.0/mybatis-plus-core-3.3.0-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java</url>
+          <line>139</line>
+          <properties class="com.baomidou.mybatisplus.core.mapper.BaseMapper" method="selectById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

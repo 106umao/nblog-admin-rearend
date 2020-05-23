@@ -1,6 +1,7 @@
 package club.bangju.pojo.DO;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -35,8 +36,11 @@ public class RoleDO implements Serializable , GrantedAuthority {
 
     private String name;
 
+    @TableField("`desc`")
     private String desc;
 
+    @TableField("is_disable")
+    private Integer disable;
     @JsonIgnore
     @Override
     public String getAuthority() {
