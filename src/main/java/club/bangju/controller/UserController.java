@@ -43,6 +43,8 @@ public class UserController {
     public ResponseDTO listUser() {
         return userService.listUser();
     }
+
+    @Secured({ROLE_SUPER_ADMIN,ROLE_USER_ADMIN,ROLE_SYSTEM_ADMIN})
     @PostMapping("/user/status")
     public ResponseDTO updateUser(@RequestBody HashMap model)  {
         Integer id =  (Integer) model.get("id");
@@ -50,5 +52,18 @@ public class UserController {
         logger.debug("update->userid::"+model.get("id"));
         return userService.updateUser(id,status);
     }
+
+    @Secured({ROLE_SUPER_ADMIN,ROLE_USER_ADMIN,ROLE_SYSTEM_ADMIN})
+    @PostMapping("/user/dispatchRoles")
+    public ResponseDTO dispatchRoles(@RequestBody UserDO userDO)  {
+        return userService.dispatchRoles(userDO);
+    }
+
+    @Secured({ROLE_SUPER_ADMIN,ROLE_USER_ADMIN,ROLE_SYSTEM_ADMIN})
+    @DeleteMapping("/user")
+    public ResponseDTO deleteUser(@RequestBody UserDO userDO)  {
+        return userService.deleteUser(userDO);
+    }
+
 
 }

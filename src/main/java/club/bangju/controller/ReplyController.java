@@ -26,25 +26,25 @@ public class ReplyController {
     Logger logger = LoggerFactory.getLogger(ReplyController.class);
     @Autowired
     IReplyService replyService;
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_REPLY_ADMIN})
     @GetMapping("/reply")
     public ResponseDTO listReply() {
         return replyService.listReply();
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_REPLY_ADMIN})
     @PutMapping("/reply")
     public ResponseDTO addReply(@RequestBody ReplyDO replyDO) {
         return replyService.addReply(replyDO);
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_REPLY_ADMIN})
     @DeleteMapping("/reply")
     public ResponseDTO deleteReply(@RequestBody ReplyDO replyDO) {
         return replyService.deleteReply(replyDO);
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_REPLY_ADMIN})
     @PostMapping("/reply")
     public ResponseDTO updateReply(@RequestBody ReplyDO replyDO) {
         return replyService.updateReply(replyDO);

@@ -26,25 +26,25 @@ public class TagController {
     Logger logger = LoggerFactory.getLogger(TagController.class);
     @Autowired
     ITagService tagService;
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_TAG_ADMIN})
     @GetMapping("/tag")
     public ResponseDTO listTag() {
         return tagService.listTag();
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_TAG_ADMIN})
     @PutMapping("/tag")
     public ResponseDTO addTag(@RequestBody TagDO tagDO) {
         return tagService.addTag(tagDO);
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_TAG_ADMIN})
     @DeleteMapping("/tag")
     public ResponseDTO deleteTag(@RequestBody TagDO tagDO) {
         return tagService.deleteTag(tagDO);
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_TAG_ADMIN})
     @PostMapping("/tag")
     public ResponseDTO updateTag(@RequestBody TagDO tagDO) {
         return tagService.updateTag(tagDO);

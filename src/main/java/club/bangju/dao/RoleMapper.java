@@ -16,8 +16,8 @@ import java.util.List;
  * @since 2020-05-09
  */
 public interface RoleMapper extends BaseMapper<RoleDO> {
-    @Select("SELECT role.id,name,`desc`,is_disable as disable from role inner join user_role on role.id = user_role.role_id where user_role.user_id = #{userId}")
-    List<RoleDO> listRoleByUserId(Integer userId);
+    @Select("SELECT role.id,name,`desc`,is_disable as disable from role inner join user_role on role.id = user_role.role_id where user_role.user_id = #{userId} and role.is_disable!=1")
+    List<RoleDO> listRoleByUserId(Long userId);
 
     @Update("update role set is_disable = #{disable} where id = #{id}")
     Integer disableRole(RoleDO roleDO);

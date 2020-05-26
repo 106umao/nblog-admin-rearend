@@ -2,6 +2,7 @@ package club.bangju.dao;
 
 import club.bangju.pojo.DO.RoleDO;
 import club.bangju.pojo.DO.UserDO;
+import club.bangju.pojo.DTO.ResponseDTO;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.*;
 
@@ -36,13 +37,15 @@ public interface UserMapper extends BaseMapper<UserDO> {
             "       update_time,\n" +
             "       is_delete `delete`\n" +
             "FROM `user`\n" +
-            "WHERE username = #{username}")
+            "WHERE username = #{param1}")
     @Results({
             @Result(id = true, property = "id", column = "id"),
             @Result(property = "roles", column = "id", javaType = ArrayList.class,
                     many = @Many(select = "club.bangju.dao.RoleMapper.listRoleByUserId"))
     })
     List<UserDO> getUserByUsername(String username);
+
+
     @Select("SELECT id,\n" +
             "       email,\n" +
             "       username,\n" +
@@ -66,5 +69,9 @@ public interface UserMapper extends BaseMapper<UserDO> {
 
 
     @Update("update user set is_delete = #{param2} where id = #{param1} ")
-    int updateStatusById(Integer id, Integer status);
+    Integer updateStatusById(Integer id, Integer status);
+
+    Integer insertUserRoleByUserId(@Param("userId") Long id, @Param("insertRoles") List<RoleDO> insertRoles);
+
+    Integer deleteUserRoleByUserId(@Param("userId") Long id, @Param("deleteRoles") List<RoleDO> deleteRoles);
 }

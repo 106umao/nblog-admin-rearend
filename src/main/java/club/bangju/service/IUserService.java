@@ -20,4 +20,8 @@ public interface IUserService extends IService<UserDO> , UserDetailsService {
     ResponseDTO listUser();
 
     ResponseDTO updateUser(Integer id, Integer delete );
+
+    ResponseDTO deleteUser(UserDO userDO);
+
+    ResponseDTO dispatchRoles(UserDO userDO);
 }

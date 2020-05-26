@@ -1,6 +1,8 @@
 package club.bangju.service.impl;
 
+import club.bangju.dao.RoleMapper;
 import club.bangju.dao.UserMapper;
+import club.bangju.pojo.DO.RoleDO;
 import club.bangju.pojo.DO.UserDO;
 import club.bangju.pojo.DTO.ResponseDTO;
 import club.bangju.service.IUserService;
@@ -13,6 +15,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -28,11 +31,13 @@ import java.util.List;
 public class UserServiceImpl extends ServiceImpl<UserMapper, UserDO> implements IUserService {
     @Autowired
     UserMapper userMapper;
+    @Autowired
+    RoleMapper roleMapper;
     Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        logger.debug("查询用户名"+username);
-        UserDO user = userMapper.findUserByEmailHasRoles(username);
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+        logger.debug("查询email"+email);
+        UserDO user = userMapper.findUserByEmailHasRoles(email);
         logger.debug("查询出的用户"+user);
         return user;
     }
@@ -42,6 +47,45 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserDO> implements 
     public ResponseDTO updateUser(Integer id, Integer delete) {
         int i = userMapper.updateStatusById(id,delete);
         return i != 0 ? ResponseDTO.ok() : ResponseDTO.failed();
+    }
+
+    @Override
+    @Transactional()
+    public ResponseDTO dispatchRoles(UserDO userDO) {
+        List<RoleDO> oldRoles = roleMapper.listRoleByUserId(userDO.getId());
+        List<RoleDO> newRoles = userDO.getRoles();
+        List<RoleDO> insertRoles = new ArrayList<>();
+        List<RoleDO> deleteRoles = new ArrayList<>();
+        for (RoleDO newRole : newRoles) {
+            if (!oldRoles.contains(newRole)) {
+                insertRoles.add(newRole);
+            }
+        }
+        for (RoleDO oldRole : oldRoles) {
+            if (!newRoles.contains(oldRole)) {
+                deleteRoles.add(oldRole);
+            }
+        }
+        logger.debug("insertRoles:-->" + insertRoles.toString());
+        logger.debug("deleteRoles:-->" + deleteRoles.toString());
+
+        if (insertRoles.size() != 0 || deleteRoles.size() != 0) {
+            if (insertRoles.size() != 0) {
+                Integer integer1 = userMapper.insertUserRoleByUserId(userDO.getId(), insertRoles);
+            }
+            if (deleteRoles.size() != 0) {
+                Integer integer = userMapper.deleteUserRoleByUserId(userDO.getId(),deleteRoles);
+            }
+        } else {
+            return ResponseDTO.failed();
+        }
+        return ResponseDTO.ok();
+    }
+
+    @Override
+    public ResponseDTO deleteUser(UserDO userDO) {
+        logger.debug("删除了"+userDO);
+        return userMapper.deleteById(userDO.getId()) != 0 ? ResponseDTO.ok() : ResponseDTO.failed();
     }
 
     @Override

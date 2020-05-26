@@ -12,6 +12,17 @@
             <result column="desc" property="desc" javaType="string" jdbcType="VARCHAR"></result>
         </collection>
     </resultMap>
+    <insert id="insertUserRoleByUserId">
+        <foreach collection="insertRoles" separator="," index="index" item="roleDO" open=" insert into user_role values ">
+            (#{userId},#{roleDO.id})
+        </foreach>
+    </insert>
+    <delete id="deleteUserRoleByUserId">
+        delete from user_role where user_id = #{userId}
+        <foreach collection="deleteRoles" separator="," index="index" item="roleDO" open=" and role_id in ( " close=")">
+            #{roleDO.id}
+        </foreach>
+    </delete>
     <select id="findUserByUsernameHasRoles" resultMap="findUserHasRolesMap">
         select
             user.id as uid ,
@@ -23,15 +34,16 @@
             role.desc
         from
             user
-            left join
+        left join
             user_role
         on
             user.id = user_role.user_id
-            left join
+        left join
             role
-            on
+        on
             user_role.role_id = role .id
-        where user.username =#{username}
+        where
+            `user`.username =#{username} and `user`.is_delete !=1 and role.is_disable!=1
     </select>
 
     <select id="findUserByEmailHasRoles" resultMap="findUserHasRolesMap">
@@ -53,6 +65,7 @@
             role
             on
             user_role.role_id = role .id
-        where user.email =#{email}
+        where user.email =#{email} and user.is_delete !=1
     </select>
+
 </mapper>

@@ -26,26 +26,26 @@ public class CategoryController {
     Logger logger = LoggerFactory.getLogger(CategoryController.class);
     @Autowired
     ICategoryService categoryService;
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_CATEGORY_ADMIN})
     @GetMapping("/category")
     public ResponseDTO listCategory() {
         return categoryService.listCategory();
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_CATEGORY_ADMIN})
     @PutMapping("/category")
     public ResponseDTO addCategory(@RequestBody CategoryDO categoryDO) {
         logger.debug(categoryDO.toString());
         return categoryService.addCategory(categoryDO);
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_CATEGORY_ADMIN})
     @DeleteMapping("/category")
     public ResponseDTO deleteCategory(@RequestBody CategoryDO categoryDO) {
         return categoryService.deleteCategory(categoryDO);
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_RESOURCE_ADMIN, ROLE_CATEGORY_ADMIN})
     @PostMapping("/category")
     public ResponseDTO updateCategory(@RequestBody CategoryDO categoryDO) {
         return categoryService.updateCategory(categoryDO);

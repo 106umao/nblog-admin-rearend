@@ -12,6 +12,7 @@ public class Roles {
     public static final String ROLE_USER_ADMIN = "ROLE_USER_ADMIN";
     public static final String ROLE_ROLE_ADMIN = "ROLE_ROLE_ADMIN";
     public static final String ROLE_ARTICLE_ADMIN = "ROLE_ARTICLE_ADMIN";
+    public static final String ROLE_CATEGORY_ADMIN = "ROLE_CATEGORY_ADMIN";
     public static final String ROLE_TAG_ADMIN = "ROLE_TAG_ADMIN";
     public static final String ROLE_COMMENT_ADMIN = "ROLE_COMMENT_ADMIN";
     public static final String ROLE_REPLY_ADMIN = "ROLE_REPLY_ADMIN";

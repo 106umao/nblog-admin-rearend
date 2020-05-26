@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
 public class MyExceptionHandler {
@@ -16,7 +17,6 @@ public class MyExceptionHandler {
 
     @ResponseBody
     @ExceptionHandler(Exception.class)
-
     public Object allExceptionHandler(Exception e) {
         logger.error("异常处理:",e.getMessage());
         e.printStackTrace();

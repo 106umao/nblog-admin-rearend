@@ -26,13 +26,13 @@ public class RoleController {
     Logger logger = LoggerFactory.getLogger(RoleController.class);
     @Autowired
     IRoleService roleService;
-    @Secured({ROLE_SUPER_ADMIN, ROLE_SYSTEM_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_ADMIN})
     @GetMapping("/role")
     public ResponseDTO listRole() {
         return roleService.listRole();
     }
 
-    @Secured({ROLE_SUPER_ADMIN, ROLE_SYSTEM_ADMIN, ROLE_COMMENT_ADMIN})
+    @Secured({ROLE_SUPER_ADMIN, ROLE_SYSTEM_ADMIN, ROLE_ROLE_ADMIN})
     @PostMapping("/role")
     public ResponseDTO updateRole(@RequestBody RoleDO roleDO) {
         return roleService.updateRole(roleDO);
